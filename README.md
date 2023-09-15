@@ -1,2 +1,2 @@
 # python-pot
-My 1st python repo
+welcome to My 1st python repo
