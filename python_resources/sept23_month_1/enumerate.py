@@ -27,7 +27,6 @@ print(list(enumerateGrocery))
 #[(10, 'bread'), (11, 'milk'), (12, 'butter')]
 
 
-
 # Example 2: Looping Over an Enumerate object
 grocery = ['bread', 'milk', 'butter']
 
@@ -57,3 +56,25 @@ for count, item in enumerate(grocery, 100):
 #100 bread
 #101 milk
 #102 butter
+
+#another senario
+#The enumerate() function in Python takes an iterable (such as a list, tuple, or string) and returns an enumerate object. 
+#The enumerate object is an iterator that returns a tuple for each item in the iterable, where the tuple contains the index of the item and the item itself.
+
+#The enumerate() function is useful for looping over iterables and keeping track of the index of each item. For example, 
+#the following code uses the enumerate() function to print the index and element of each item in a list:
+
+
+list1 = ["apple", "banana", "cherry"]
+
+for i, element in enumerate(list1):
+    print(f"Index: {i}, Element: {element}")
+    
+#The enumerate() function can also be used to generate a new iterable with the indexes and elements of the original iterable. 
+#For example, the following code uses the enumerate() function to create a new list with the indexes and elements of the original list:
+
+list1 = ["apple", "banana", "cherry"]
+
+new_list = [(i, element) for i, element in enumerate(list1)]
+
+print(new_list)
