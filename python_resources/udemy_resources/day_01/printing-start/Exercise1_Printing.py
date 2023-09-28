@@ -7,5 +7,6 @@ print("print('what to print')")
 # The function is declared like this:
 # print('what to print') 
 
+print(len(input('What is your name')))
 
 
