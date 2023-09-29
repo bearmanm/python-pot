@@ -7,3 +7,6 @@ print("Hello world!\nHello world!\nHello world!\nHello world!")
 # Hello world!
 
 print("Hello" + " " + "Amy")
+
+#output
+# Hello Amy
