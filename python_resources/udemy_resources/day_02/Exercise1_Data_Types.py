@@ -18,6 +18,10 @@ print(type(a+b)) #checks data type
 print(a+b)
 # = 10
 
+#could also get rid of a, b, variables and replace with
+
+#result = int(first_digit) + int(second_digit)
+#print(result)
 
 
 
