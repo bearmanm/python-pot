@@ -26,7 +26,7 @@ print(street_name[4] + street_name[7])
 num_char = len(input("What is your name?\n"))
 new_num_char = str(num_char)
 print("Your name has "  + new_num_char + " characters.")
-
+# = Your name has 4 characters
 
 # use type function to investigate the data type you are working with.
 print(type(num_char))
@@ -50,6 +50,6 @@ print(type(a))
 print(70 + float("100.5"))
 # = 170.5
 
-# convert a int to str
+# convert a str to int
 print(str(70)+ str(100))
 # = 70100
