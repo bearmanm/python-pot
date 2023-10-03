@@ -3,7 +3,7 @@
 #Parentheses    () brackets
 #Exponents      **
 #Multiplication * /
-#Division
+#Division   note: will print float
 #Addition        + -
 #Subtraction  
 

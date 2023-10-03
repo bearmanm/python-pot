@@ -10,6 +10,6 @@ height = input("enter you height in meters Amy Bearman please    m: ")
 weight = input("enter your weight in kg as well please Amy     kg: ")
 
 total_height = float(height) * float(height)
-result = float(weight) / float(total_height)
-print(int(result))
+bmi = float(weight) / float(total_height)
+print(int(bmi))
 
