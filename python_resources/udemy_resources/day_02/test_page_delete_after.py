@@ -14,6 +14,6 @@ tip_as_percent = tip / 100
 total_tip_amount = bill * tip_as_percent
 total_bill = bill + total_tip_amount
 bill_per_person = total_bill / people
-final_amount = round(bill_per_person, 2) # sometimes in python the , 2 decimal does work. 
+final_amount = round(bill_per_person, 2) # sometimes in python the , 2 decimal doesn't work. 
 final_amount = "{:.2f}".format(bill_per_person) # stackflow returned the answer to use this line:
 print(f"Each person should pay: ${final_amount}")
