@@ -6,9 +6,9 @@
 
 #hint: There are 365 days in a year, 52 weeks in a year and 12 months in a year.
 
-age = input()
+age = input() # 50
 # 90years = 4680weeks
 years_minus_age = int(90) - int(age)
 age_in_weeks = years_minus_age * 52
 print(f"You have {age_in_weeks} weeks left.")
-
+# = You have 2080 weeks left. (crikey!) 

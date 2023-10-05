@@ -9,4 +9,4 @@ print("Hello world!\nHello world!\nHello world!\nHello world!")
 print("Hello" + " " + "Amy")
 
 #output
-# Hello Amy
+# = Hello Amy

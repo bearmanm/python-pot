@@ -19,3 +19,5 @@
 3 * 3  #multiplication
 6 / 3  #division
 2 ** 3 #power of 
+
+# < less than, <= less than equal to, == equal, >=greater than equal to, > greater than, != NOT equal
