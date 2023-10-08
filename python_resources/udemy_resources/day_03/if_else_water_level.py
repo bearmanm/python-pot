@@ -1,5 +1,5 @@
 # if water level goes over 80L, "drain", else: continue to fill. 
-# >= greater than equal to, 
+# use comparison operators >= greater than equal to, 
 
 water_level = 79
 if water_level >= 80:
