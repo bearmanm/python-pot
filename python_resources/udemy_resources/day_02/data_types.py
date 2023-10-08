@@ -1,7 +1,7 @@
 #Data_Types
 
 # subscripting [] - start counting from 0 upwards 
-print("Hello"[4]) # to print a single letter 'o' from Hello use subscripting by enter the number [] 
+print("Hello"[4]) # to print a single letter 'o' from 'Hello' use subscripting by enter the number [] 
 # = o
 
 # Integer

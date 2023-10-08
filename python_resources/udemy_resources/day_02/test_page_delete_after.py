@@ -25,7 +25,7 @@
 number = int(input())
 
 if number %2:
-  print("Odd")
+   print("Odd")
 else:
   print("Even")
 
