@@ -8,6 +8,7 @@ height = int(input("what is your height in cm?\n"))
 if height >=120:
     # if the condition is True 
     print("You can ride on mikey's rollercoaster! ")
+    # as the condition is True, we can add another if statement "to check there age?" 
     age = int(input("What is your age? "))
     if age <12:
     # if the condition is True
