@@ -57,38 +57,38 @@
   #print('It is not a leap year. February has 28 days')
   
 # Udemy program   
-#print("Welcome to the mikey's rollercoaster ride!")
-#print("Your must be over 120cm in height to ride on my rollcoaster!")
+print("Welcome to the mikey's rollercoaster ride!")
+print("Your must be over 120cm in height to ride on my rollcoaster!")
 
-#height = int(input("what is your height in cm?\n"))
-#bill = 0
-
-#if height >=120: 
-    #print("You can ride on mikey's rollercoaster!")
-    #age = int(input("What is your age?\n"))
-    #if age < 12:
-        #bill = 5
-        #print("Child tickets are £5.")
-    #elif age < 18:
-        #bill = 7
-       #print("junior tickets are £7.")
-    #else:
-        #bill = 12
-        #print("Adult tickets are £12.")
-    #wants_photo = input("Do you want photo? Y or N.\n")
-    #if wants_photo == "Y":
-        #bill += 3    
-    
-    #print(f"Your final bill is £{bill}\n")
-#else:
-    #print("Sorry, you need to grow more before you can ride.. eat more chocolate!!")
-    
-
-pizza_order = input(" what size pizza do you want? S, M or L?\n")
+height = int(input("what is your height in cm?\n"))
 bill = 0
-small = ("S")
-medium = ("M")
-large = ("L")
+
+if height >=120: 
+    print("You can ride on mikey's rollercoaster!")
+    age = int(input("What is your age?\n"))
+    if age < 12:
+        bill = 5
+        print("Child tickets are £5.")
+    elif age < 18:
+        bill = 7
+        print("junior tickets are £7.")
+    else:
+        bill = 12
+        print("Adult tickets are £12.")
+    wants_photo = input("Do you want photo? Y or N.\n")
+    if wants_photo == "Y":
+        bill += 3    
+    
+    print(f"Your final bill is £{bill}\n")
+else:
+    print("Sorry, you need to grow more before you can ride.. eat more chocolate!!")
+    
+
+#pizza_order = input(" what size pizza do you want? S, M or L?\n")
+#bill = 0
+#small = ("S")
+#medium = ("M")
+#large = ("L")
 
 
 
