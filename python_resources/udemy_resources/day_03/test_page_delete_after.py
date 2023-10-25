@@ -56,59 +56,6 @@
 #else:
   #print('It is not a leap year. February has 28 days')
   
-# Udemy program   
-print("Welcome to the mikey's rollercoaster ride!")
-print("Your must be over 120cm in height to ride on my rollcoaster!")
-
-height = int(input("what is your height in cm?\n"))
-bill = 0
-
-if height >=120: 
-    print("You can ride on mikey's rollercoaster!")
-    age = int(input("What is your age?\n"))
-    if age < 12:
-        bill = 5
-        print("Child tickets are £5.")
-    elif age < 18:
-        bill = 7
-        print("junior tickets are £7.")
-    else:
-        bill = 12
-        print("Adult tickets are £12.")
-    wants_photo = input("Do you want photo? Y or N.\n")
-    if wants_photo == "Y":
-        bill += 3    
-    
-    print(f"Your final bill is £{bill}\n")
-else:
-    print("Sorry, you need to grow more before you can ride.. eat more chocolate!!")
-    
-print("Thank you for choosing Python Pizza Deliveries!")  
-pizza_order = input("what size pizza do you want? S, M or L?\n")
-
-add_pepperoni = input("do you want pepperoni? Y or N\n")
-extra_cheese = input("do you want extra cheese? Y or N\n")
-bill = 0
-if pizza_order == str("S"):
-    bill = 15
-    if add_pepperoni == "Y":
-        bill += 2
-    if extra_cheese == "Y":
-        bill += 1
-elif pizza_order == str("M"):
-    bill = 20
-    if add_pepperoni == "Y":
-        bill += 3
-    if extra_cheese == "Y":
-        bill += 1
-elif pizza_order ==str("L"):
-    bill = 25 
-    if add_pepperoni == "Y":
-        bill += 3
-    if extra_cheese == "Y":
-        bill += 1
-  
-print(f"Your final bill is £{bill}\n")
-
-
+a = 12
+a > 15
 
