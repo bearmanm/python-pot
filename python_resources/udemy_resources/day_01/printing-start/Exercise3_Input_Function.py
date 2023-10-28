@@ -5,7 +5,7 @@ print("Hello " + input("What is your name?\n"))
 # What is your name?
 # Hello Amy
 
-#this is a program that will print the number of characters in a user's name. 
+#this is a program that will print the number of characters in a user's name (str). 
 print(len(input('What is your name? ')))
 
 # output

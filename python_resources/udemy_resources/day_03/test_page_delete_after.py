@@ -56,6 +56,5 @@
 #else:
   #print('It is not a leap year. February has 28 days')
   
-a = 12
-a > 15
+
 

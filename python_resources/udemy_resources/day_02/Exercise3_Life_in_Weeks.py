@@ -8,7 +8,7 @@
 
 age = input() # 50
 # 90years = 4680weeks
-years_minus_age = int(90) - int(age)
+years_minus_age = int(80) - int(age)
 age_in_weeks = years_minus_age * 52
 print(f"You have {age_in_weeks} weeks left.")
 # = You have 2080 weeks left. (crikey!) 

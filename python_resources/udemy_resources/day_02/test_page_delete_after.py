@@ -22,12 +22,12 @@
 
 
 # if else statement testing
-number = int(input())
+#number = int(input())
 
-if number %2:
-   print("Odd")
-else:
-  print("Even")
+#if number %2:
+   #print("Odd")
+#else:
+  #print("Even")
 
 
 
@@ -37,5 +37,4 @@ else:
     #print("Drain")
 #else:
     #print("continue to fill")
-
 

@@ -25,7 +25,6 @@ variable "Environment" {
 
 variable "AccountNumber" {
   description = "AWS account number"
-  type        = string
   default     = "5876xxxxxx46"
 }
 variable "workflow" {
