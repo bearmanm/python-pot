@@ -11,6 +11,10 @@ if year %4 ==0 and (year %100 !=0 or year %400 ==0): #two variables need to be t
     print("Leap year")
 else:
     print("Not leap year")
+    
+    
+if year = %2000 ==0:
+     
 # 1900/4=475 no reminder, so True
 # 1900/100=19 no remainder, so False (condition asks != NOT equal to)
 # 1900/400=4.75 with remainder, so False (condition asks ==0 no remainder)
