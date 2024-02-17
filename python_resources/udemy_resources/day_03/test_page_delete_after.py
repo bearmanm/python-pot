@@ -58,3 +58,37 @@
   
 
 
+# print("welcome to my tip cal")
+
+# def main(): # declaring a function
+#  bill = float(input("enter total bill\n"))
+#  people = int(input("how many people\n"))
+#  perc = int(input("enter % tip amount 10, 15, 20\n"))
+
+#  split = bill / people
+#  tip = split * perc
+#  divide = tip / 100
+#  total = divide + split
+#  pay = round(total, 2)
+#  print(f"please pay £ {pay}")
+
+# if __name__ =="__main__":  # checks whether the script is being run as the main program (not imported as a module "a file containing Python definitions and statements"). 
+#  main()
+
+# a = input()
+# b = input()
+
+# c = a 
+# a = b 
+# b = c
+
+# print("a:" + a)
+# print("b:" + b)
+
+
+  
+
+
+
+
+    
